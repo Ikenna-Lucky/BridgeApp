@@ -12,6 +12,13 @@
   width: 15px !important;
 }
 
+.hide {
+  display: none;
+}
+.show:hover .hide {
+  display: block;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
